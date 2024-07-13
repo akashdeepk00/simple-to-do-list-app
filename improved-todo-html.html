@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Tasks 2.0</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Simple Tasks 2.0</h1>
+        </header>
+        <div class="user-input">
+            <div class="task-input">
+                <input type="text" id="taskInput" placeholder="Add a new task...">
+                <button id="addTaskBtn" disabled>
+                    <span class="material-icons">add</span>
+                    Add Task
+                </button>
+            </div>
+            <div class="user-controls">
+                <input type="text" id="searchInput" placeholder="Search tasks...">
+            </div>
+        </div>
+        <div class="task-list">
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
